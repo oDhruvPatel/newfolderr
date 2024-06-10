@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body
+{
+    overflow-x: hidden;
+    /* background-color: #0f1525; */
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #f94688, #7aa6ed, #6b54f1); /* Gradient color for the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+
+  /* @keyframes appear {
+    from{
+        opacity: 50;
+        scale: 0.7;
+    }
+    to
+    {
+        scale: 1;
+        opacity: 100;
+    } 
+  }
+
+.view
+{
+    animation:appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+} */
+
+.heading{
+    font-family: "Overpass", sans-serif;
+}
+.primary{
+    font-family: 'Poppins', sans-serif;
+}
+.secondary{
+    font-family: "Work Sans", sans-serif;
+}
+
+.bx
+{
+    box-shadow: 10px 10px rgba(0,0,0,0.15);
+}
+
+.shadow-me
+{
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
+}
+
+.drop
+{
+    
+}
