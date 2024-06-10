@@ -1,4 +1,4 @@
-import QT from '../assets/QT.png';
+// import QT from '../assets/QT.png';
 
 const Project = (props: {title:string, image:string, desc:string, tech:string[]}) => {
   return (

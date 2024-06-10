@@ -8,7 +8,7 @@ const TextMovingOnScroll: React.FC = () => {
   const titleRef1 = useRef<HTMLHeadingElement>(null);
   const titleRef2 = useRef<HTMLHeadingElement>(null);
   const titleRef3 = useRef<HTMLHeadingElement>(null);
-  const hero = useRef<HTMLHeadingElement>(null);
+  // const hero = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
