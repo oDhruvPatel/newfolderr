@@ -8,7 +8,7 @@ const Skill = (props:{list:string[], title:string, bg:string, icon?:ReactElement
                 <div className='w-full flex flex-row h-[80%]'>
                     <ul className='flex flex-row justify-center py-4 md:text-2xl text-lg w-full uppercase primary font-normal flex-wrap'>
                       {props.list.map((item, idx)=>(
-                      <li key={idx} className='md:px-4 p-2 primary m-2 bg-[#fff] hover:text-black hover:cursor-pointer rounded-full md:text-lg text-sm '>{item}</li>
+                      <li key={idx} className='md:px-4 py-1 px-2 primary m-2 bg-[#fff] hover:text-black hover:cursor-pointer rounded-full md:text-lg text-sm '>{item}</li>
                        ))} 
                     </ul>
                 </div>
