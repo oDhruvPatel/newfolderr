@@ -41,9 +41,9 @@ const Navbar = (props: {link:string[]}) => {
 
 
          <ul className="flex px-7 text-center">
-               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700"><FaLinkedin/></li>
-               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-500"><FaGithub/></li>
-               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400"><FaTwitter/></li>
+               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700"><a href=""><FaLinkedin/></a></li>
+               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-500"><a href="https://github.com/oDhruvPatel/oDhruvPatel/blob/main/README.md"><FaGithub/></a></li>
+               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400"><a href=""><FaTwitter/></a></li>
         </ul>
 
         
