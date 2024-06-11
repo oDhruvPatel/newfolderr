@@ -1,15 +1,17 @@
 import Education from "./Education"
 
 const Experience = () => {
-  return (
+    const Toshal = "Engineered and managed scalable server-side applications utilizing the Node.js and Express.js frameworks efficiently. Collaborated with cross-functional teams to design and implement RESTful APIs, enhancing communication between frontend and backend systems.";
+    const DA = "I am currently immersed in an enriching Data Analyst internship, where I'm actively refining my analytical prowess and gaining invaluable insights into the dynamic field of data science."
+    return (
     <>
       <h1 className='text-slate-800  text-3xl md:text-center text-center md:text-4xl primary capitalize font-bold  md:py-3 py-2 my-7  '>
              Experience
         </h1>
 
-                  <Education class="left" title="B.E Computer Science and Engineering - Spec. AI & ML" timeline="2021-2024" desc="Done Node.js Internship jdeveloping lots of small projects"/>
-                  <Education class="right" title="Diploma in Computer Engineering" timeline="2018-2021" desc=""/>
-                  <Education class="left" title="10th Grade" timeline="2017-2018" desc=""/>
+                  <Education class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
+                  <Education class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
+                 
                  
     </>
   )

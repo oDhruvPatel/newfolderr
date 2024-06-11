@@ -1,12 +1,9 @@
-
+import { useEffect, useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { CgMenuLeft } from "react-icons/cg";
-import { IoClose } from "react-icons/io5";
-
-
-import { useState } from "react";
+import { IoClose } from "react-icons/io5"
 
 const Navbar = (props: {link:string[]}) => {
     const [navStatus, setnavStatus] = useState(false);
@@ -14,11 +11,29 @@ const Navbar = (props: {link:string[]}) => {
     const handleNav = ()=>{
         setnavStatus(!navStatus);
     }
+   
+    const [shadow, setShadow] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      <nav className="w-[100vw] md:w-[80vw] m-auto sticky top-0 z-50 bg-white py-4 shadow md:flex flex">
-      <ul className="md:w-[80%] w-[100%] lg:flex hidden">
+      <nav className={`transition-shadow ${shadow ? 'shadow-md shadow-purple-400/40' : ''} navbar w-[100vw] md:w-[100vw] m-auto sticky top-0 z-50 bg-white py-4 md:flex flex`}>
+      <ul className="md:w-[80%] w-[100%] lg:flex hidden px-7">
   {props.link.map((item, idx) => (
     <li
       key={idx}
@@ -30,7 +45,7 @@ const Navbar = (props: {link:string[]}) => {
 </ul>
 
      
-        <ul className="w-[80%] lg:hidden block">
+        <ul className="w-[70%] lg:hidden block">
             
             <li onClick={handleNav} className="primary uppercase md:text-4xl text-4xl mx-6 cursor-pointer font-extralight">
                 {!navStatus && <CgMenuLeft/>}
@@ -40,7 +55,7 @@ const Navbar = (props: {link:string[]}) => {
             </ul>
 
 
-         <ul className="flex px-7 text-center">
+         <ul className="flex   flex-row px-7 justify-evenl">
                <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700"><a href=""><FaLinkedin/></a></li>
                <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-500"><a href="https://github.com/oDhruvPatel/oDhruvPatel/blob/main/README.md"><FaGithub/></a></li>
                <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400"><a href=""><FaTwitter/></a></li>
