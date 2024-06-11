@@ -9,8 +9,8 @@ const Experience = () => {
              Experience
         </h1>
 
-                  <Education class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
-                  <Education class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
+                  <Education seq={1} class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
+                  <Education seq={2} class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
                  
                  
     </>

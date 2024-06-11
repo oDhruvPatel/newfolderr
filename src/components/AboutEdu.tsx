@@ -12,9 +12,9 @@ const AboutEdu = () => {
         </h1>
 
        
-                  <Education class="left" title="B.E Computer Science and Engineering - Spec. AI & ML" timeline="2021-2024" desc={BE}/>
-                  <Education class="right" title="Diploma in Computer Engineering" timeline="2018-2021" desc={DI}/>
-                  <Education class="left" title="10th Grade" timeline="2017-2018" desc={board}/>
+                  <Education seq={1} class="left" title="B.E Computer Science and Engineering - Spec. AI & ML" timeline="2021-2024" desc={BE}/>
+                  <Education seq={2} class="right" title="Diploma in Computer Engineering" timeline="2018-2021" desc={DI}/>
+                  <Education seq={3} class="left" title="10th Grade" timeline="2017-2018" desc={board}/>
                  
     </>
   )
