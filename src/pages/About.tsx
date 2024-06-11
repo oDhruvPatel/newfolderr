@@ -2,6 +2,7 @@
 import AboutEdu from '../components/AboutEdu';
 import { AboutMe } from '../components/AboutMe';
 import AboutSkills from '../components/AboutSkills';
+import Experience from '../components/Experience';
 
 
 const About = () => {
@@ -15,6 +16,7 @@ const About = () => {
          <AboutMe/>
          <AboutSkills/>
          <AboutEdu/>
+         <Experience/>
             
 
       </div>
