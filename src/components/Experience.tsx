@@ -15,8 +15,8 @@ const Experience = () => {
         <div
           className={` md:border-r-2 md:border-l-0 gradient-border border-l-2  border-slate-800 z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
         >
-                  <Education seq={1} classLR="text-right" class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
-                  <Education seq={2} classLR="text-left"  class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
+                  <Education seq={1} classLR="md:text-right" class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
+                  <Education seq={2} classLR="md:text-left"  class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
         </div>
         </div>     
     </>
