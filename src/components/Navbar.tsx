@@ -37,7 +37,7 @@ const Navbar = (props: {link:string[]}) => {
   {props.link.map((item, idx) => (
     <li
       key={idx}
-      className="text-slate-800 primary uppercase font-semibold text-xl flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-black"
+      className="text-slate-800 primary uppercase font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-black"
     >
       <a href={`#${item}`}>{item}</a>
     </li>

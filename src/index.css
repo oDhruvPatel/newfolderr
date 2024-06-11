@@ -68,6 +68,7 @@ body
     box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
 }
 
+@media (min-width: 800px){
 .left{
     position: relative;
     left: 0%;
@@ -76,24 +77,31 @@ body
 .right
 {
     position: relative;
-    left: 50%;
+    left: 100%; 
+    /* width: 99%; */
+}
 }
 
-.middle-line::after{
-    content: '';
-    position: absolute;
-    width: 7px;
-    height: 100%;
-    margin-top: -129px;
-    left: 50%;
-    z-index: 99;
-    background-color: rgba(30 41 59);
-    border-radius: 10px;
+.middle-line::after
+{
+   content: '';
+   position: absolute;
+   width: 7px;
+   background: #000;
+   height: 50%;
 }
+
 
 
 @media (max-width: 640px) {
     .right {
         left: 0%;
     }
+    
 }
+
+
+.gradient-border {
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #0099ff, #a222f2) 1; /* Adjust colors and direction */
+  }

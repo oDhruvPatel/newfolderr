@@ -7,8 +7,8 @@ export const AboutMe = () => {
         about me
         </h1>
 
-        <div className="flex md:flex-row-reverse flex-col-reverse px-4 pt-4 mt-7 md:mt-9">
-          <div className="md:w-[80%] w-full h-full my-auto text-justify primary md:pl-4 text-sm md:text-lg font-normal">
+        <div className="flex lg:flex-row-reverse flex-col-reverse px-4 pt-4 mt-7 md:mt-9">
+          <div className="md:w-[80%] w-full h-full my-auto text-justify primary lg:pl-4 text-sm lg:text-lg font-normal">
             Hi, I’m Dhruv Patel and i'm a Full stack Software developer with a passion for building robust and scalable
             applications. With a strong foundation in both front-end and
             back-end development, I specialize in creating seamless user

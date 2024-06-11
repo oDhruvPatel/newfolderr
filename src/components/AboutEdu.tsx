@@ -11,11 +11,18 @@ const AboutEdu = () => {
              Education
         </h1>
 
+        <div
+        className={`md:w-[80vw] w-[100vw] m-auto  transition-all `}
+      >
+        <div
+          className={` md:border-r-2 md:border-l-0 border-l-2 gradient-border z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
+        >
        
-                  <Education seq={1} class="left" title="B.E Computer Science and Engineering - Spec. AI & ML" timeline="2021-2024" desc={BE}/>
-                  <Education seq={2} class="right" title="Diploma in Computer Engineering" timeline="2018-2021" desc={DI}/>
-                  <Education seq={3} class="left" title="10th Grade" timeline="2017-2018" desc={board}/>
-                 
+                  <Education seq={1} classLR="text-right" class="left" title="B.E Computer Sci. and Engg. - Spec. AI & ML" timeline="2021-2024" desc={BE}/>
+                  <Education seq={2} classLR="text-left" class="right" title="Diploma in Computer Engineering" timeline="2018-2021" desc={DI}/>
+                  <Education seq={3} classLR="text-right" class="left" title="10th Grade" timeline="2017-2018" desc={board}/>
+               </div>
+               </div>  
     </>
   )
 }
