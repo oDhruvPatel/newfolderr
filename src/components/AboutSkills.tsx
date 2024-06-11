@@ -20,9 +20,9 @@ const AboutSkills = () => {
              Skills
         </h1>
             <div className='flex justify-evenly md:flex-row flex-col flex-wrap'>
-            <Skill list={Frontendskills} title='Frontend' icon={<BsWindowDock/>} bg='bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 hover:scale-2'/>
-            <Skill list={Backendskills} title='Backend' icon={<FaServer/>} bg='bg-gradient-to-r from-blue-200 via-rose-200 to-indigo-200'/>
-            <Skill list={OtherSkills} title='Others' icon={<FaLightbulb/>} bg='bg-gradient-to-r from-rose-200 via-sky-200 to-purple-200'/>
+            <Skill list={Frontendskills} title='Frontend' icon={<BsWindowDock/>} bg='bg-gradient-to-r from-indigo-200 to-pink-200 hover:scale-2'/>
+            <Skill list={Backendskills} title='Backend' icon={<FaServer/>} bg='bg-gradient-to-r from-purple-200 to-indigo-200'/>
+            <Skill list={OtherSkills} title='Others' icon={<FaLightbulb/>} bg='bg-gradient-to-r from-rose-200 to-purple-200'/>
            
             </div>
     </>

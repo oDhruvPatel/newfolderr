@@ -5,6 +5,7 @@ import About from './pages/About'
 import Hero from './pages/Hero'
 import Projects from './pages/Projects'
 import { gsap } from "gsap";
+import Contact from './pages/Contact';
 
 function App() {
   const body =  useRef<HTMLHeadingElement>(null);
@@ -36,6 +37,7 @@ function App() {
       <div className='h-full w-full'>
       <Projects/>
       <About/>
+      <Contact/>
       </div>
       
        
