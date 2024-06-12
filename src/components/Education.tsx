@@ -12,7 +12,7 @@ const Education = (props: {
       <div
           className={`${props.class} md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
         >
-          <div className={`${props.classLR} md:w-[100%] pl-1 w-full text-left text-lg font-medium  pt-1 text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-purple-700`}>
+          <div className={`${props.classLR} md:w-[100%] pl-1 w-full text-left text-lg font-medium  text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-purple-700`}>
             <div className={`${props.dotLR} w-4 h-4 bg-slate-800 border-2 border-slate-300 absolute rounded-full`}></div>
           </div>
           <div
