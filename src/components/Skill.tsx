@@ -9,8 +9,10 @@ const Skill = (props:{list:string[], title:string, bg:string, icon?:ReactElement
                     <ul className='flex flex-row justify-center py-4 w-full flex-wrap'>
                       {props.list.map((item, idx)=>(
                       <li key={idx} className='md:text-sm text-sm px-2 my-2 mx-2 primary bg-[#fff] hover:text-black hover:cursor-pointer rounded-full'>{item}</li>
-                       ))} 
+                       
+                       ))}
                     </ul>
+
                 </div>
              </div>
    </>
