@@ -32,12 +32,12 @@ const Navbar = (props: {link:string[]}) => {
 
   return (
     <>
-      <nav className={`transition-shadow ${shadow ? 'shadow-md md:shadow-purple-400/40 shadow-purple-400/30 ' : ''} navbar w-[100vw] md:w-[100vw] m-auto sticky top-0 z-50 bg-white py-4 md:flex flex`}>
+      <nav className={`transition-shadow ${shadow ? 'shadow-md border-b  md:shadow-purple-400/40 shadow-purple-400/30' : ''} navbar w-[100vw] md:w-[100vw] m-auto sticky top-0 z-50 bg-white py-4 md:flex flex`}>
       <ul className="md:w-[80%] w-[100%] lg:flex hidden px-7">
   {props.link.map((item, idx) => (
     <li
       key={idx}
-      className="text-slate-800 primary uppercase font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-black"
+      className="text-slate-800 primary uppercase font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-indigo-600"
     >
       <a href={`#${item}`}>{item}</a>
     </li>

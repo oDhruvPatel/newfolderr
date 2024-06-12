@@ -13,10 +13,10 @@ const Experience = () => {
         className={`md:w-[80vw] w-[100vw] m-auto  transition-all `}
       >
         <div
-          className={` md:border-r-2 md:border-l-0 gradient-border border-l-2  border-slate-800 z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
+          className={` md:border-r-4 md:border-l-0 gradient-border border-l-4  border-slate-800 z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
         >
-                  <Education seq={1} classLR="md:text-right" class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
-                  <Education seq={2} classLR="md:text-left"  class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
+                  <Education seq={1} classLR="md:text-right md:pr-1" class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
+                  <Education seq={2} classLR="md:text-left md:pl-1"  class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
         </div>
         </div>     
     </>
