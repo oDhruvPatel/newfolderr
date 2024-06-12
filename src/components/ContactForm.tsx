@@ -14,6 +14,7 @@ const ContactForm: React.FC = () => {
 
   const onSubmit: SubmitHandler<FormData> = (formData) => {
     setData(JSON.stringify(formData));
+    alert("Message has been sent !" + data);
   };
 
   return (
