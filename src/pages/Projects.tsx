@@ -11,6 +11,7 @@ const Projects = () => {
     const CCE = "A real-time collaborative code editor enabling seamless teamwork with features like syntax highlighting, version control, and integrated chat for effective group programming.";
     const HPP = "An advanced house price prediction tool using machine learning algorithms to accurately estimate property values based on various market and property features."
     const QSP = "A dynamic and interactive quote-sharing platform where users can discover, share, and save their favorite quotes. Featuring an intuitive interface, this platform allows users to browse a vast collection of quotes categorized by themes, authors, and popularity.";
+    const todo = "I developed a fully functional Todo application using React and Redux to demonstrate my skills in state management and component-based architecture. This project showcases my ability to create a scalable and maintainable application with a clear separation of concerns."
     return (
     <>
       <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-white"  id="Projects">
@@ -18,13 +19,11 @@ const Projects = () => {
           Projects
         </h1>
         <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-white flex md:flex-row flex-wrap flex-col justify-evenly">
-          <Project title="Language learnin app" image="https://static.vecteezy.com/system/resources/previews/007/494/775/original/modern-3d-online-languages-learning-class-language-courses-banner-template-for-website-and-mobile-app-development-literal-translation-language-assistant-e-learning-concept-illustration-free-vector.jpg" desc={LLA} tech={['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Open AI'] }/>
-          <Project title="Collaborative Code Editor" image="https://static.vecteezy.com/system/resources/previews/003/244/481/non_2x/text-editor-programming-icon-with-flat-style-and-dark-theme-free-vector.jpg" desc={CCE} tech={['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Skulpt', 'WebSocket', 'Socket.io'] }/>
-          <Project title="House Price Prediction" image="https://static.vecteezy.com/system/resources/previews/005/636/784/non_2x/housing-price-rising-up-real-estate-or-property-growth-concept-with-rising-curve-arrow-vector.jpg" desc={HPP} tech={['Python', 'JavaScript', 'HTML', 'CSS'] }/>
+          <Project title="Language learnin app" image="https://static.vecteezy.com/system/resources/previews/007/494/775/original/modern-3d-online-languages-learning-class-language-courses-banner-template-for-website-and-mobile-app-development-literal-translation-language-assistant-e-learning-concept-illustration-free-vector.jpg" desc={LLA} tech={['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'Open AI'] }/>
+          <Project title="Collaborative Code Editor" image="https://static.vecteezy.com/system/resources/previews/003/244/481/non_2x/text-editor-programming-icon-with-flat-style-and-dark-theme-free-vector.jpg" desc={CCE} tech={['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'WebSocket', 'Socket.io'] }/>
+          <Project title="House Price Prediction" image="https://static.vecteezy.com/system/resources/previews/005/636/784/non_2x/housing-price-rising-up-real-estate-or-property-growth-concept-with-rising-curve-arrow-vector.jpg" desc={HPP} tech={['Machine Learning', 'Python', 'JavaScript', 'HTML', 'CSS'] }/>
           <Project title="Quote Sharing Application" image="https://www.socialchamp.io/wp-content/uploads/2022/08/A_B-Testing-banners_03_Social-Media-Marketing-Quotes.png.webp" desc={QSP} tech={['React.js','Node.js', 'Express.js', 'MongoDB'] }/>
-          <Project title="House Price Prediction" image="https://static.vecteezy.com/system/resources/previews/005/636/784/non_2x/housing-price-rising-up-real-estate-or-property-growth-concept-with-rising-curve-arrow-vector.jpg" desc={HPP} tech={['Ypu', 'sdfs'] }/>
-          <Project title="House Price Prediction" image="https://static.vecteezy.com/system/resources/previews/005/636/784/non_2x/housing-price-rising-up-real-estate-or-property-growth-concept-with-rising-curve-arrow-vector.jpg" desc={HPP} tech={['Ypu', 'sdfs'] }/>
-          
+          <Project title="Todo App" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXWhpcMQ1wDLYbnKGVbunxrbO71lSHggwdlVCE8dsPTGHTaQQDpm8jBP964MFUiHa32aE&usqp=CAU" desc={todo} tech={['React.js', 'Redux'] }/>
         </div>
       </div>
     </>
