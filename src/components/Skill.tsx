@@ -1,4 +1,5 @@
 import { ReactElement } from "react"
+
 const Skill = (props:{list:string[], title:string, bg:string, icon?:ReactElement}) => {
   return (
    <>
@@ -11,6 +12,7 @@ const Skill = (props:{list:string[], title:string, bg:string, icon?:ReactElement
                       <li key={idx} className='md:text-sm text-sm px-2 my-2 mx-2 primary bg-[#fff] hover:text-black hover:cursor-pointer rounded-full'>{item}</li>
                        
                        ))}
+                   
                     </ul>
 
                 </div>

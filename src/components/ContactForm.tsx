@@ -14,7 +14,9 @@ const ContactForm: React.FC = () => {
 
   const onSubmit: SubmitHandler<FormData> = (formData) => {
     setData(JSON.stringify(formData));
-    alert("Message has been sent !" + data);
+    console.log("Message has been sent !" + data);
+
+
   };
 
   return (
@@ -25,7 +27,7 @@ const ContactForm: React.FC = () => {
      <div className="flex flex-row w-full"></div>
       </div>
      
-      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col primary text-xl w-[100%] text-slate-800">
+      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col primary md:text-xl text-md w-[100%] text-slate-800">
         <input {...register("name")} placeholder="Dhruv Patel" className="my-2 p-4 rounded-lg"/> 
         <input {...register("email")} placeholder="example@gmail.com" className="my-2 p-4 rounded-lg"/>
         <textarea {...register("email")} placeholder="Write your message here." className="my-2 p-4 rounded-lg"/>
