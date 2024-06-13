@@ -56,9 +56,9 @@ const Navbar = (props: {link:string[]}) => {
 
 
          <ul className="flex   flex-row px-7 justify-evenl">
-               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700"><a href=""><FaLinkedin/></a></li>
+               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700"><a href="https://www.linkedin.com/in/dhruv-patel-5a658a21b/"><FaLinkedin/></a></li>
                <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-500"><a href="https://github.com/oDhruvPatel/oDhruvPatel/blob/main/README.md"><FaGithub/></a></li>
-               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400"><a href=""><FaTwitter/></a></li>
+               <li className="text-slate-800 md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400"><a href="https://x.com/Dhruv_2723"><FaTwitter/></a></li>
         </ul>
 
         

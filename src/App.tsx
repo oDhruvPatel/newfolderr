@@ -6,6 +6,7 @@ import Hero from './pages/Hero'
 import Projects from './pages/Projects'
 import { gsap } from "gsap";
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const body =  useRef<HTMLHeadingElement>(null);
@@ -38,6 +39,7 @@ function App() {
       <Projects/>
       <About/>
       <Contact/>
+      <Footer/>
       </div>
       
        

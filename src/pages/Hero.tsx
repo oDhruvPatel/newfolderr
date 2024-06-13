@@ -63,11 +63,13 @@ const TextMovingOnScroll: React.FC = () => {
 
         <div className="w-full flex flex-col items-center justify-center md:flex-row my-9 px-2">
           <Button
+          linkTo="Projects"
             title="Checkout my work"
             icon={<MdArrowOutward />}
             bg="bg-gradient-to-r focus:from-white focus:to-white from-indigo-500 to-pink-500 hover:from-pink-500 hover:to-indigo-500 text-white"
           />
           <Button
+            download="../src/assets/DhruvPatel.pdf"
             title="Download resume"
             icon={<GoDownload />}
             bg="bg-gradient-to-r from-cyan-400 to-blue-500 focus:from-white focus:to-white text-white hover:from-blue-500 hover:to-cyan-500"
