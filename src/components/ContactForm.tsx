@@ -23,7 +23,7 @@ const ContactForm: React.FC = () => {
     <>
      <div className="md:w-[80%] w-[90%] p-5 border-2 shadow-md rounded-lg my-7 m-auto flex  flex-col bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200">
      
-     <div className=" w-[100%] text-8xl text-indigo-600 flex flex-col justify-center items-center"> <IoMdContact/>
+     <div className=" w-[100%] text-8xl text-indigo-500 flex flex-col justify-center items-center"> <IoMdContact/>
      <div className="flex flex-row w-full"></div>
       </div>
      

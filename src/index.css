@@ -12,6 +12,8 @@ body
     /* background-color: #0f1525; */
 }
 
+
+
 /* Custom scrollbar for webkit browsers */
 ::-webkit-scrollbar {
     width: 4px; /* Width of the scrollbar */
