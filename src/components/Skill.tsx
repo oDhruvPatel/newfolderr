@@ -17,7 +17,7 @@ const Skill = (props: {
           {props.list.map((item, idx) => (
             <li
               key={idx}
-              className="relative md:text-sm text-xs p-2 my-2 mx-2 primary bg-white hover:text-black hover:cursor-pointer hover:scale-110 transition-all rounded-full"
+              className="view relative md:text-sm text-xs p-2 my-2 mx-2 primary bg-white hover:text-black hover:cursor-pointer hover:scale-110 transition-all rounded-full"
               onMouseEnter={() => setHoveredSkill(item.name)}
               onMouseLeave={() => setHoveredSkill(null)}
               style={{
