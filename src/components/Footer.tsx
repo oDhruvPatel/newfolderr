@@ -12,13 +12,13 @@ const Footer = () => {
                     </ul>
                 </div>
                 <h2 className="text-white my-1">Follow me on</h2>
-                <div className="my-2">
-                <ul className="flex  opacity-80 flex-row px-7 justify-evenl">
+                <div className="my-2 w-full flex flex-col">
+                <ul className="flex  opacity-80 flex-row px-7 justify-evenl m-auto">
                <li className="text-white md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700"><a href="https://www.linkedin.com/in/dhruv-patel-5a658a21b/"><FaLinkedin/></a></li>
                <li className="text-white md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-500"><a href="https://github.com/oDhruvPatel/oDhruvPatel/blob/main/README.md"><FaGithub/></a></li>
                <li className="text-white md:text-4xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400"><a href="https://x.com/Dhruv_2723"><FaTwitter/></a></li>
-        </ul>
-        <h2 className="text-white opacity-80 mt-2">Email : dhruvpatel2721978@gmail.com</h2>
+              </ul>
+        <h2 className="text-white opacity-80 mt-2 w-full flex justify-center">Email : dhruvpatel2721978@gmail.com</h2>
                 
                 </div>
              </div>

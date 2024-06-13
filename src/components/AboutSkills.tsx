@@ -8,33 +8,33 @@ import { SiTypescript, SiTailwindcss, SiBootstrap, SiDjango, SiExpress, SiMongod
 
 
 const FrontendSkills = [
-  <FaHtml5 className="text-html text-4xl" />,
-  <FaCss3Alt className="text-css text-4xl" />,
-  <FaJsSquare className="text-javascript text-4xl" />,
-  <FaReact className="text-react text-4xl" />,
-  <SiTypescript className="text-typescript text-4xl" />,
-  <SiTailwindcss className="text-tailwindcss text-4xl" />,
-  <SiBootstrap className="text-bootstrap text-4xl" />
+  { name: 'HTML', icon: <FaHtml5 className="text-html text-4xl" /> },
+  { name: 'CSS', icon: <FaCss3Alt className="text-css text-4xl" /> },
+  { name: 'JavaScript', icon: <FaJsSquare className="text-javascript text-4xl" /> },
+  { name: 'React', icon: <FaReact className="text-react text-4xl" /> },
+  { name: 'TypeScript', icon: <SiTypescript className="text-typescript text-4xl" /> },
+  { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-tailwindcss text-4xl" /> },
+  { name: 'Bootstrap', icon: <SiBootstrap className="text-bootstrap text-4xl" /> }
 ];
 
 const BackendSkills = [
-  <FaNode className="text-node text-4xl" />,
-  <SiExpress className="text-express text-4xl" />,
-  <SiMongodb className="text-mongodb text-4xl" />,
-  <SiDjango className="text-django text-4xl" />,
-  <SiMysql className="text-mysql text-4xl" />,
-  <SiPostgresql className="text-postgresql text-4xl" />
+  { name: 'Node.js', icon: <FaNode className="text-node text-4xl" /> },
+  { name: 'Express.js', icon: <SiExpress className="text-express text-4xl" /> },
+  { name: 'MongoDB', icon: <SiMongodb className="text-mongodb text-4xl" /> },
+  { name: 'Django', icon: <SiDjango className="text-django text-4xl" /> },
+  { name: 'MySQL', icon: <SiMysql className="text-mysql text-4xl" /> },
+  { name: 'PostgreSQL', icon: <SiPostgresql className="text-postgresql text-4xl" /> }
 ];
 
 const OtherSkills = [
-  <FaGit className="text-git text-4xl" />,
-  <SiGithub className="text-github text-4xl" />,
-  <FaJava className="text-java text-4xl" />,
-  <FaPython className="text-python text-4xl" />,
-  <SiC className="text-c text-4xl" />,
-  <SiCplusplus className="text-cplusplus text-4xl" />,
-  <SiTensorflow className="text-tensorflow text-4xl" />,
-  <SiPytorch className="text-pytorch text-4xl" />
+  { name: 'Git', icon: <FaGit className="text-git text-4xl" /> },
+  { name: 'GitHub', icon: <SiGithub className="text-github text-4xl" /> },
+  { name: 'Java', icon: <FaJava className="text-java text-4xl" /> },
+  { name: 'Python', icon: <FaPython className="text-python text-4xl" /> },
+  { name: 'C', icon: <SiC className="text-c text-4xl" /> },
+  { name: 'C++', icon: <SiCplusplus className="text-cplusplus text-4xl" /> },
+  { name: 'TensorFlow', icon: <SiTensorflow className="text-tensorflow text-4xl" /> },
+  { name: 'PyTorch', icon: <SiPytorch className="text-pytorch text-4xl" /> }
 ];
 
 const AboutSkills = () => {
