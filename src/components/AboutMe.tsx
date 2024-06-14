@@ -1,4 +1,4 @@
-import profile from '../assets/dhrub.png';
+import profile from '../assets/dhrub (2).png';
 
 export const AboutMe = () => {
   return (

@@ -23,7 +23,7 @@ const Projects = () => {
           <Project title="Collaborative Code Editor" image="https://static.vecteezy.com/system/resources/previews/003/244/481/non_2x/text-editor-programming-icon-with-flat-style-and-dark-theme-free-vector.jpg" desc={CCE} tech={['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'WebSocket', 'Socket.io'] }/>
           <Project title="House Price Prediction" image="https://static.vecteezy.com/system/resources/previews/005/636/784/non_2x/housing-price-rising-up-real-estate-or-property-growth-concept-with-rising-curve-arrow-vector.jpg" desc={HPP} tech={['Machine Learning', 'Python', 'JavaScript', 'HTML', 'CSS'] }/>
           <Project title="Quote Sharing Application" image="https://www.socialchamp.io/wp-content/uploads/2022/08/A_B-Testing-banners_03_Social-Media-Marketing-Quotes.png.webp" desc={QSP} tech={['React.js','Node.js', 'Express.js', 'MongoDB'] }/>
-          <Project title="Todo App" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXWhpcMQ1wDLYbnKGVbunxrbO71lSHggwdlVCE8dsPTGHTaQQDpm8jBP964MFUiHa32aE&usqp=CAU" desc={todo} tech={['React.js', 'Redux'] }/>
+          <Project title="Todo App" image="https://assets-global.website-files.com/632954a961fe6a195cb51903/634cd23ce8327e1a65382366_ida%20cover.webp" desc={todo} tech={['React.js', 'Redux'] }/>
         </div>
       </div>
     </>
