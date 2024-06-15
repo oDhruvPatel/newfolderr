@@ -32,7 +32,7 @@ const Navbar = (props: {link:string[]}) => {
 
   return (
     <>
-      <nav className={`transition-shadow ${shadow ? 'shadow-md border-b  md:shadow-purple-400/40 shadow-purple-400/30' : ''} navbar w-[100vw] md:w-[100vw] m-auto sticky top-0 z-50 bg-white py-4 md:flex flex`}>
+      <nav className={`transition-shadow ${shadow ? 'shadow-md border-b  md:shadow-md' : ''} navbar w-[100vw] md:w-[100vw] m-auto sticky top-0 z-50 bg-white py-4 md:flex flex`}>
       <ul className="md:w-[80%] w-[100%] lg:flex hidden px-7">
   {props.link.map((item, idx) => (
     <li
