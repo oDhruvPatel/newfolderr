@@ -38,25 +38,25 @@ const TextMovingOnScroll: React.FC = () => {
   }, []);
 
   return (
-    <div className="w-[100vw] flex my-7 md:my-20" id="Home" >
+    <div className="w-[100vw] flex my-7 md:mt-0 mt-24 md:my-20" id="Home" >
       <div className="w-[100vw] md:w-[80vw] m-auto overflow-x-hidden">
         <h1
           ref={titleRef1}
-          className="text-4xl md:text-5xl secondary md:font-light font-light w-full pt-9 px-2 md:text-center"
+          className="text-[#adb4c3] text-4xl text-center md:text-5xl primary md:font-light font-light w-full pt-9 px-2 md:text-center"
         >
           Hey there! 👋
         </h1>
-        <div className="w-ful border-b-2 border-t-2"> 
+        <div className="w-ful"> 
         <h1
           ref={titleRef2}
-          className="w-full  md:text-center text-6xl md:text-9xl uppercase md:font-bold font-semibold  py-7 primary px-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"
+          className="w-full my-3 text-center text-5xl md:text-8xl  md:font-bold font-semibold  primary px-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"
         >
           I am Dhruv Patel
         </h1>
         </div>
         <h1
           ref={titleRef3}
-          className="text-slate-800 w-full md:text-center text-3xl md:text-5xl font-semibold mt-4 primary px-2"
+          className="text-[#adb4c3] my-4 w-full text-center text-3xl md:text-5xl font-semibold  primary px-2"
         >
           a Software Developer
         </h1>

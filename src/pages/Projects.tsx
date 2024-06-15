@@ -14,11 +14,11 @@ const Projects = () => {
     const todo = "I developed a fully functional Todo application using React and Redux to demonstrate my skills in state management and component-based architecture. This project showcases my ability to create a scalable and maintainable application with a clear separation of concerns."
     return (
     <>
-      <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-white"  id="Projects">
-        <h1 className="text-4xl md:text-center text-center md:text-7xl primary uppercase font-extralight border-b-2 border-t-2 md:py-3 py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500">
-          Projects
+      <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[#1d232a]"  id="Projects">
+        <h1 className="text-4xl md:text-center text-center md:text-6xl primary  font-semibold  md:py-3 py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-400">
+           Projects
         </h1>
-        <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-white flex md:flex-row flex-wrap flex-col justify-evenly">
+        <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[#1d232a] flex md:flex-row flex-wrap flex-col justify-left">
           <Project title="Language learnin app" image="https://static.vecteezy.com/system/resources/previews/007/494/775/original/modern-3d-online-languages-learning-class-language-courses-banner-template-for-website-and-mobile-app-development-literal-translation-language-assistant-e-learning-concept-illustration-free-vector.jpg" desc={LLA} tech={['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'Open AI'] }/>
           <Project title="Collaborative Code Editor" image="https://static.vecteezy.com/system/resources/previews/003/244/481/non_2x/text-editor-programming-icon-with-flat-style-and-dark-theme-free-vector.jpg" desc={CCE} tech={['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'WebSocket', 'Socket.io'] }/>
           <Project title="House Price Prediction" image="https://static.vecteezy.com/system/resources/previews/005/636/784/non_2x/housing-price-rising-up-real-estate-or-property-growth-concept-with-rising-curve-arrow-vector.jpg" desc={HPP} tech={['Machine Learning', 'Python', 'JavaScript', 'HTML', 'CSS'] }/>
