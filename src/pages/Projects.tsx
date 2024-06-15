@@ -15,8 +15,8 @@ const Projects = () => {
     return (
     <>
       <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[#1d232a]"  id="Projects">
-        <h1 className="text-4xl md:text-center text-center md:text-6xl primary  font-semibold  md:py-3 py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-400">
-           Projects
+      <h1 className="text-3xl md:text-center text-center md:text-5xl primary  font-bold  md:py-3 py-2  text-purple-400">
+Projects
         </h1>
         <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[#1d232a] flex md:flex-row flex-wrap flex-col justify-left">
           <Project title="Language learnin app" image="https://static.vecteezy.com/system/resources/previews/007/494/775/original/modern-3d-online-languages-learning-class-language-courses-banner-template-for-website-and-mobile-app-development-literal-translation-language-assistant-e-learning-concept-illustration-free-vector.jpg" desc={LLA} tech={['React.js', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'Open AI'] }/>

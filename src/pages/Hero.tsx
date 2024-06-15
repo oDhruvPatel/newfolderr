@@ -38,7 +38,7 @@ const TextMovingOnScroll: React.FC = () => {
   }, []);
 
   return (
-    <div className="w-[100vw] flex my-7 md:mt-0 mt-24 md:my-20" id="Home" >
+    <div className="w-[100vw] flex my-7 md:mt-24 mt-24 md:my-20" id="Home" >
       <div className="w-[100vw] md:w-[80vw] m-auto overflow-x-hidden">
         <h1
           ref={titleRef1}

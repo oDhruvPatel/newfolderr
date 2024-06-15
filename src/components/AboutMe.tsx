@@ -3,8 +3,8 @@ import profile from '../assets/dhrub (2).png';
 export const AboutMe = () => {
   return (
     <>
-   <h1 className="text-4xl md:text-center text-center md:text-6xl primary  font-semibold  md:py-3 py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-400">
-   About me
+    <h1 className="text-3xl md:text-center text-center md:text-5xl primary  font-bold  md:py-3 py-2  text-purple-400">
+    About me
         </h1>
 
         <div className="flex lg:flex-row-reverse flex-col-reverse px-4 pt-4 mt-7 md:mt-9">
