@@ -127,3 +127,11 @@ body
     border-style: solid;
     border-image: linear-gradient(to bottom, #0099ff, #a222f2) 1; /* Adjust colors and direction */
   }
+
+.bxs
+{
+    border-radius: 48px;
+background: #1d232a;
+box-shadow: inset 6px 6px 18px #181d23,
+            inset -6px -6px 18px #222931;
+}

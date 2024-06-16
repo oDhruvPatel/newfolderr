@@ -40,7 +40,7 @@ const Navbar = (props: { link: string[] }) => {
           {props.link.map((item, idx) => (
             <li
               key={idx}
-              className="text-gray-300 primary capitalize font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:text-indigo-600"
+              className="text-gray-300 primary capitalize font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:text-purple-400"
             >
               <a href={`#${item}`}>{item}</a>
             </li>
