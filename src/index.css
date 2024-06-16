@@ -130,8 +130,8 @@ body
 
 .bxs
 {
-    border-radius: 48px;
-background: #1d232a;
-box-shadow: inset 6px 6px 18px #181d23,
-            inset -6px -6px 18px #222931;
+    border-radius: 40px;
+background: linear-gradient(145deg, #1a2026, #1f252d);
+box-shadow:  6px 6px 18px #181d23,
+             -6px -6px 18px #222931;
 }
