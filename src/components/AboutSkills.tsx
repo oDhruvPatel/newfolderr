@@ -8,33 +8,33 @@ import { SiTypescript, SiTailwindcss, SiBootstrap, SiDjango, SiExpress, SiMongod
 
 
 const FrontendSkills = [
-  { name: 'HTML', icon: <FaHtml5 className="text-html text-4xl" /> },
-  { name: 'CSS', icon: <FaCss3Alt className="text-css text-4xl" /> },
-  { name: 'JavaScript', icon: <FaJsSquare className="text-javascript text-4xl" /> },
-  { name: 'React', icon: <FaReact className="text-react text-4xl" /> },
-  { name: 'TypeScript', icon: <SiTypescript className="text-typescript text-4xl" /> },
-  { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-tailwindcss text-4xl" /> },
-  { name: 'Bootstrap', icon: <SiBootstrap className="text-bootstrap text-4xl" /> }
+  { name: 'HTML', icon: <FaHtml5 className="text-html text-5xl bg-white rounded-full p-1" /> },
+  { name: 'CSS', icon: <FaCss3Alt className="text-css text-5xl bg-white rounded-full p-1" /> },
+  { name: 'JavaScript', icon: <FaJsSquare className="text-javascript text-5xl bg-white rounded-full p-1" /> },
+  { name: 'React', icon: <FaReact className="text-react text-5xl bg-white rounded-full p-1" /> },
+  { name: 'TypeScript', icon: <SiTypescript className="text-typescript text-5xl bg-white rounded-full p-1" /> },
+  { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-tailwindcss text-5xl bg-white rounded-full p-1" /> },
+  { name: 'Bootstrap', icon: <SiBootstrap className="text-bootstrap text-5xl bg-white rounded-full p-1" /> }
 ];
 
 const BackendSkills = [
-  { name: 'Node.js', icon: <FaNode className="text-node text-4xl" /> },
-  { name: 'Express.js', icon: <SiExpress className="text-express text-4xl" /> },
-  { name: 'MongoDB', icon: <SiMongodb className="text-mongodb text-4xl" /> },
-  { name: 'Django', icon: <SiDjango className="text-django text-4xl" /> },
-  { name: 'MySQL', icon: <SiMysql className="text-mysql text-4xl" /> },
-  { name: 'PostgreSQL', icon: <SiPostgresql className="text-postgresql text-4xl" /> }
+  { name: 'Node.js', icon: <FaNode className="text-node text-5xl bg-white rounded-full p-1" /> },
+  { name: 'Express.js', icon: <SiExpress className="text-express text-5xl bg-white rounded-full p-1" /> },
+  { name: 'MongoDB', icon: <SiMongodb className="text-mongodb text-5xl bg-white rounded-full p-1" /> },
+  { name: 'Django', icon: <SiDjango className="text-django text-5xl bg-white rounded-full p-1" /> },
+  { name: 'MySQL', icon: <SiMysql className="text-mysql text-5xl bg-white rounded-full p-1" /> },
+  { name: 'PostgreSQL', icon: <SiPostgresql className="text-postgresql text-5xl bg-white rounded-full p-1" /> }
 ];
 
 const OtherSkills = [
-  { name: 'Git', icon: <FaGit className="text-git text-4xl" /> },
-  { name: 'GitHub', icon: <SiGithub className="text-github text-4xl" /> },
-  { name: 'Java', icon: <FaJava className="text-java text-4xl" /> },
-  { name: 'Python', icon: <FaPython className="text-python text-4xl" /> },
-  { name: 'C', icon: <SiC className="text-c text-4xl" /> },
-  { name: 'C++', icon: <SiCplusplus className="text-cplusplus text-4xl" /> },
-  { name: 'TensorFlow', icon: <SiTensorflow className="text-tensorflow text-4xl" /> },
-  { name: 'PyTorch', icon: <SiPytorch className="text-pytorch text-4xl" /> }
+  { name: 'Git', icon: <FaGit className="text-git text-5xl bg-white rounded-full p-1" /> },
+  { name: 'GitHub', icon: <SiGithub className="text-github text-5xl bg-white rounded-full p-1" /> },
+  { name: 'Java', icon: <FaJava className="text-java text-5xl bg-white rounded-full p-1" /> },
+  { name: 'Python', icon: <FaPython className="text-python text-5xl bg-white rounded-full p-1" /> },
+  { name: 'C', icon: <SiC className="text-c text-5xl bg-white rounded-full p-1" /> },
+  { name: 'C++', icon: <SiCplusplus className="text-cplusplus text-5xl bg-white rounded-full p-1" /> },
+  { name: 'TensorFlow', icon: <SiTensorflow className="text-tensorflow text-5xl bg-white rounded-full p-1" /> },
+  { name: 'PyTorch', icon: <SiPytorch className="text-pytorch text-5xl bg-white rounded-full p-1" /> }
 ];
 
 const AboutSkills = () => {
