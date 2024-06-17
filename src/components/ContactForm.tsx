@@ -33,17 +33,17 @@ const ContactForm: React.FC = () => {
           <input
             {...register("name")}
             placeholder="Dhruv Patel"
-            className="my-2 p-4 rounded-lg view bg-[#1d232a] bxs1"
+            className="my-2 p-4 rounded-lg view bg-[#1d232a] bxs1 text-sm"
           />
           <input
             {...register("email")}
             placeholder="example@gmail.com"
-            className="my-2 p-4 rounded-lg view bg-[#1d232a] bxs1"
+            className="my-2 p-4 rounded-lg view bg-[#1d232a] bxs1 text-sm"
           />
           <textarea
             {...register("description")}
             placeholder="Write your message here."
-            className="my-2 p-4 rounded-lg view bxs1"
+            className="my-2 p-4 rounded-lg view bxs1 text-sm"
           />
           <input
             type="submit"
