@@ -73,11 +73,11 @@ const Navbar = (props: { link: string[] }) => {
         </ul>
       </nav>
       {navStatus && (
-        <ul className="drop shadow-md md:w-8/12 w-full flex flex-col justify-center items-center fixed bg-white z-50">
+        <ul className="drop shadow-md md:w-8/12 w-full flex flex-col justify-center items-center fixed bg-[#1a2026] z-50">
           {props.link.map((item, idx) => (
             <li
               key={idx}
-              className="text-slate-800 primary uppercase font-medium text-xl flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-black py-2 my-2"
+              className="text-gray-300 primary uppercase font-medium text-xl flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-black py-2 my-2"
             >
               <a href={`#${item}`}>{item}</a>
             </li>

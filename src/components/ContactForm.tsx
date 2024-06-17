@@ -23,7 +23,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-      <div className="md:w-[80%] w-[90%] p-5 border-2 shadow-md rounded-lg my-7 m-auto flex flex-col bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200">
+      <div className="md:w-[80%] w-[90%] p-5  shadow-md rounded-lg my-7 m-auto flex flex-col bxs">
         <div className="w-[100%] text-8xl text-indigo-500 flex flex-col justify-center items-center">
           <IoMdContact />
           <div className="flex flex-row w-full"></div>
@@ -33,17 +33,17 @@ const ContactForm: React.FC = () => {
           <input
             {...register("name")}
             placeholder="Dhruv Patel"
-            className="my-2 p-4 rounded-lg view"
+            className="my-2 p-4 rounded-lg view bg-[#1d232a] bxs1"
           />
           <input
             {...register("email")}
             placeholder="example@gmail.com"
-            className="my-2 p-4 rounded-lg view"
+            className="my-2 p-4 rounded-lg view bg-[#1d232a] bxs1"
           />
           <textarea
             {...register("description")}
             placeholder="Write your message here."
-            className="my-2 p-4 rounded-lg view"
+            className="my-2 p-4 rounded-lg view bxs1"
           />
           <input
             type="submit"

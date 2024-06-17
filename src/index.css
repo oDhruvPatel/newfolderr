@@ -13,6 +13,12 @@ body
 
 }
 
+.fonts-play
+{
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 /* Custom scrollbar for webkit browsers */
@@ -131,6 +137,14 @@ body
 .bxs
 {
     border-radius: 40px;
+background: linear-gradient(145deg, #1a2026, #1f252d);
+box-shadow:  6px 6px 18px #181d23,
+             -6px -6px 18px #222931;
+}
+
+.bxs1
+{
+    border-radius: 20px;
 background: linear-gradient(145deg, #1a2026, #1f252d);
 box-shadow:  6px 6px 18px #181d23,
              -6px -6px 18px #222931;
