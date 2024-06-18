@@ -29,7 +29,7 @@ const ContactForm: React.FC = () => {
           <div className="flex flex-row w-full"></div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col primary md:text-xl text-md w-[100%] text-slate-800">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex text-white flex-col primary md:text-xl text-md w-[100%]">
           <input
             {...register("name")}
             placeholder="Dhruv Patel"
