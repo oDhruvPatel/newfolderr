@@ -1,5 +1,4 @@
 // Projects.js
-import React from 'react';
 import Project from '../components/Project';
 import CCEI from '../assets/CCE.png';
 import lang from '../assets/LLAa.png';
