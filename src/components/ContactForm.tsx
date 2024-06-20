@@ -32,7 +32,7 @@ const ContactForm: React.FC = () => {
         <form onSubmit={handleSubmit(onSubmit)} className="flex text-white flex-col primary md:text-xl text-md w-[100%]">
           <input
             {...register("name")}
-            placeholder="Dhruv Patel"
+            placeholder="Write your name"
             className="my-2 p-4 rounded-lg view bg-[#1d232a] bxs1 text-sm"
           />
           <input

@@ -10,14 +10,14 @@ const Project = (props: { title: string; image: ReactElement; desc: string; tech
     <>
       <div
         id="card-links"
-        className="card-links bxs1 backdrop-blur-lg view md:w-[30%] h-full w-[90%] md:m-0 m-auto rounded-xl md:px-0 shadow-md overflow-hidden my-2 md:mx-4 md:my-2 hover:scale-105 transition-all hover:cursor-pointer"
+        className="card-links bxs1 backdrop-blur-lg view md:w-[30%] h-full w-[90%] md:m-0 m-auto rounded-xl md:px-0 shadow-md overflow-hidden my-2 md:mx-4 md:my-2 transition-all hover:cursor-pointer"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={() => {
           console.log(props.title);
         }}
       >
-        <div className={`try z-50 transition-all duration-300 overflow-hidden w-full bg-purple-300 absolute ${isHovered ? "h-full" : "h-0"}`}>
+        <div className={`try z-50 transition-all duration-300 overflow-hidden w-full bg-black/75 absolute bottom-0 ${isHovered ? "h-full" : "h-0"}`}>
            <div className="w-full h-full flex justify-center items-center">
              <button className="px-4 py-2 text-xl underline text-indigo-600"><a href="#">GitHub</a></button>
              <button className="px-4 py-2 text-xl underline  text-indigo-600"><a href="#">Live</a></button>
