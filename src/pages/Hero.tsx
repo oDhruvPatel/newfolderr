@@ -58,7 +58,7 @@ const TextMovingOnScroll: React.FC = () => {
           ref={titleRef3}
           className="text-[#adb4c3] my-4 w-full text-center text-3xl md:text-5xl font-semibold  primary px-2"
         >
-          a Software Developer
+          a Software Developer 🚀
         </h1>
 
         <div className="w-full flex flex-col items-center justify-center md:flex-row my-9 px-2">
