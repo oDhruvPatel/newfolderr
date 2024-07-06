@@ -23,13 +23,13 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-      <div className="md:w-[80%] w-[90%] p-5  shadow-md rounded-lg my-7 m-auto flex flex-col border border-white/5">
+      <div className="md:w-[80%] w-[90%] p-5  shadow-md rounded-lg my-7 m-auto flex flex-col border border-white/5 bg-black z-10">
         <div className="w-[100%] text-8xl text-indigo-500 flex flex-col justify-center items-center">
           <IoMdContact />
           <div className="flex flex-row w-full"></div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex text-white flex-col primary md:text-xl text-md w-[100%]">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex text-white flex-col primary md:text-xl text-md w-[100%]  ">
           <input
             {...register("name")}
             placeholder="Write your name"

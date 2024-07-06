@@ -10,13 +10,13 @@ const Education = (props: {
   return (
     <>
       <div
-          className={`${props.class}   md:m-0 m-auto flex md:justify-center md:items-center flex-col`}
+          className={`${props.class}   md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
         >
           <div className={`${props.classLR}  md:w-[100%] pl-1 w-full text-left text-lg font-medium  text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-purple-700`}>
             <div className={`${props.dotLR} w-4 h-4 bg-[#1a2026] border-2  border-indigo-400 absolute rounded-full`}></div>
           </div>
           <div
-            className={`md:my-0 md:mx-0 mb-4 border border-white/5 rounded-xl p-4 md:w-[90%] w-[96%] ml-3 md:ml-0 shadow-md  primary view transition-all hover:scale-105`}
+            className={`md:my-0 md:mx-0 mb-4 border border-white/5 bg-black rounded-xl p-4 md:w-[90%] w-[96%] ml-3 md:ml-0 shadow-md  primary view transition-all hover:scale-105`}
           >
             <h1 className="title md:text-lg text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 ">
               {" "}
