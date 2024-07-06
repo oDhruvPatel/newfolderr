@@ -40,7 +40,7 @@ const Navbar = (props: { link: string[] }) => {
           {props.link.map((item, idx) => (
             <li
               key={idx}
-              className="text-white primary capitalize font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:text-purple-400"
+              className="text-white primary capitalize font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:text-blue-500"
             >
               <a href={`#${item}`}>{item}</a>
             </li>
@@ -49,7 +49,7 @@ const Navbar = (props: { link: string[] }) => {
 
         <ul className="w-full lg:hidden block ">
           <li onClick={handleNav} className="primary uppercase md:text-4xl text-4xl mx-6 cursor-pointer font-extralight">
-            {!navStatus && <CgMenuLeft className="text-white"/>}
+            {!navStatus && <CgMenuLeft className="text-blue-500"/>}
             {navStatus && <IoClose className="text-white"/>}
           </li>
         </ul>

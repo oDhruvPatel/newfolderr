@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <>
       <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[]" id="Projects">
-        <h1 className="text-3xl md:text-center text-center md:text-5xl primary font-bold md:py-3 py-2 text-purple-400">
+        <h1 className="text-3xl md:text-center text-center md:text-5xl primary font-bold md:py-3 py-2 text-white/75">
           Projects
         </h1>
         <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[] flex md:flex-row flex-wrap gap-8 flex-col justify-left">

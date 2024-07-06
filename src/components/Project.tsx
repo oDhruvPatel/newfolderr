@@ -17,13 +17,13 @@ const Project = (props: { title: string; image: ReactElement; desc: string; tech
           console.log(props.title);
         }}
       >
-        <div className={`try z-50 transition-all duration-300 overflow-hidden w-full bg-black/80 absolute bottom-0 ${isHovered ? "h-full" : "h-0"}`}>
+        <div className={`try z-50 transition-all duration-300 overflow-hidden w-full bg-black absolute bottom-0 ${isHovered ? "h-full" : "h-0"}`}>
            <div className="w-full h-full flex justify-center items-center">
-             <button className="px-4 py-2 text-xl underline text-indigo-600"><a href="#">GitHub</a></button>
-             <button className="px-4 py-2 text-xl underline  text-indigo-600"><a href="#">Live</a></button>
+             <button className="px-4 py-2 text-xl  text-white"><a href="#">GitHub</a></button>
+             <button className="px-4 py-2 text-xl   text-white"><a href="#">Live</a></button>
            </div>
         </div>
-        <div className="image md:h-48 h-36 overflow-hidden">{props.image}</div>
+        
         <div className="title px-3 pt-2 primary font-semibold md:text-lg text-md text-white my-1">
           {props.title}
         </div>
