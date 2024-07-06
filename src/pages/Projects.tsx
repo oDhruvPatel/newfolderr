@@ -14,11 +14,11 @@ const Projects = () => {
 
   return (
     <>
-      <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[#1d232a]" id="Projects">
+      <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[]" id="Projects">
         <h1 className="text-3xl md:text-center text-center md:text-5xl primary font-bold md:py-3 py-2 text-purple-400">
           Projects
         </h1>
-        <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[#1d232a] flex md:flex-row flex-wrap flex-col justify-left">
+        <div className="md:w-[80vw] m-auto md:mt-9 mt-7 bg-[] flex md:flex-row flex-wrap flex-col justify-left">
           <Project
             title="Language learning app"
             image={<img src={lang} alt="Language Learning App" />}

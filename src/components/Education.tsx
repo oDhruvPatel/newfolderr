@@ -16,7 +16,7 @@ const Education = (props: {
             <div className={`${props.dotLR} w-4 h-4 bg-[#1a2026] border-2  border-indigo-400 absolute rounded-full`}></div>
           </div>
           <div
-            className={`md:my-0 md:mx-0 mb-4 bxs1 rounded-xl p-4 md:w-[90%] w-[96%] ml-3 md:ml-0 shadow-md  primary view transition-all hover:scale-105`}
+            className={`md:my-0 md:mx-0 mb-4 border border-white/5 rounded-xl p-4 md:w-[90%] w-[96%] ml-3 md:ml-0 shadow-md  primary view transition-all hover:scale-105`}
           >
             <h1 className="title md:text-lg text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 ">
               {" "}

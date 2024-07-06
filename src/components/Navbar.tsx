@@ -33,14 +33,14 @@ const Navbar = (props: { link: string[] }) => {
     <>
       <nav
         className={`transition-shadow ${
-          shadow ? "bg-[#1d232b]/70 backdrop-blur-md" : ""
+          shadow ? "bg-[black]/70 backdrop-blur-md" : ""
         } navbar w-full md:w-full m-auto sticky top-0 z-50 py-4 md:flex flex justify-center`}
       >
         <ul className="md:w-8/12 w-full lg:flex hidden px-7 ">
           {props.link.map((item, idx) => (
             <li
               key={idx}
-              className="text-gray-300 primary capitalize font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:text-purple-400"
+              className="text-white primary capitalize font-base text-lg flex justify-center items-center mx-6 cursor-pointer hover:text-purple-400"
             >
               <a href={`#${item}`}>{item}</a>
             </li>
@@ -55,17 +55,17 @@ const Navbar = (props: { link: string[] }) => {
         </ul>
 
         <ul className="flex flex-row px-7 justify-evenly ">
-          <li className="text-gray-300 md:text-3xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700">
+          <li className="text-white md:text-3xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-700">
             <a href="https://www.linkedin.com/in/dhruv-patel-5a658a21b/">
               <FaLinkedin />
             </a>
           </li>
-          <li className="text-gray-300 md:text-3xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-500">
+          <li className="text-white md:text-3xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-500">
             <a href="https://github.com/oDhruvPatel/oDhruvPatel/blob/main/README.md">
               <FaGithub />
             </a>
           </li>
-          <li className="text-gray-300 md:text-3xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400">
+          <li className="text-white md:text-3xl flex justify-center items-center text-3xl mx-4 cursor-pointer hover:text-indigo-400">
             <a href="https://x.com/Dhruv_2723">
               <FaTwitter />
             </a>
@@ -77,7 +77,7 @@ const Navbar = (props: { link: string[] }) => {
           {props.link.map((item, idx) => (
             <li
               key={idx}
-              className="text-gray-300 primary uppercase font-medium text-xl flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-black py-2 my-2"
+              className="text-white primary uppercase font-medium text-xl flex justify-center items-center mx-6 cursor-pointer hover:border-b-2 hover:border-b-black py-2 my-2"
             >
               <a href={`#${item}`}>{item}</a>
             </li>
