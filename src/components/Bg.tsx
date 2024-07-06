@@ -6,7 +6,7 @@ interface BgProps {
 
 const Bg: React.FC<BgProps> = ({ children }) => {
   const divs = Array.from({ length: 10000 }, () => (
-    <div className="bg-white/5 z-0 w-[3px] h-[3px] rounded-full hover:bg-white/75"></div>
+    <div className="md:bg-white/5 z-0 w-[3px] h-[3px] rounded-full bg-white/10"></div>
   ));
 
   return (
