@@ -19,7 +19,7 @@ const Project = (props: { title: string; image: ReactElement; desc: string; tech
       >
         <div className={`try z-50 transition-all duration-300 overflow-hidden w-full bg-black absolute bottom-0 ${isHovered ? "h-full" : "h-0"}`}>
            <div className="w-full h-full flex justify-center items-center">
-             <button className="px-4 py-2 text-xl  text-white"><a href="#">GitHub</a></button>
+             <button className="px-4 py-2 text-xl  text-white"><a href="#">Github</a></button>
              <button className="px-4 py-2 text-xl   text-white"><a href="#">Live</a></button>
            </div>
         </div>
