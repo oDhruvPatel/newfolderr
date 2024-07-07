@@ -23,8 +23,8 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-      <div className="md:w-[80%] w-[90%] p-5  shadow-md rounded-lg my-7 m-auto flex flex-col border border-white/5 bg-black z-10">
-        <div className="w-[100%] text-8xl text-indigo-500 flex flex-col justify-center items-center">
+      <div className="md:w-[80%] w-[90%] p-5  shadow-md rounded-lg my-7 m-auto flex flex-col border border-white/10 bg-black z-10">
+        <div className="w-[100%] text-8xl text-blue-500 flex flex-col justify-center items-center">
           <IoMdContact />
           <div className="flex flex-row w-full"></div>
         </div>
@@ -33,21 +33,21 @@ const ContactForm: React.FC = () => {
           <input
             {...register("name")}
             placeholder="Write your name"
-            className="my-2 p-4 rounded-lg view bg-[black] border border-white/5 text-sm"
+            className="my-2 p-4 rounded-lg view bg-[black] border border-white/10 text-sm"
           />
           <input
             {...register("email")}
             placeholder="example@gmail.com"
-            className="my-2 p-4 rounded-lg view bg-[black] border border-white/5 text-sm"
+            className="my-2 p-4 rounded-lg view bg-[black] border border-white/10 text-sm"
           />
           <textarea
             {...register("description")}
             placeholder="Write your message here."
-            className="my-2 p-4 rounded-lg view bg-black border border-white/5 text-sm"
+            className="my-2 p-4 rounded-lg view bg-black border border-white/10 text-sm"
           />
           <input
             type="submit"
-            className="px-4 py-2 md:w-[30%] w-[50%] m-auto my-4 rounded-md view focus:ring-4 focus:from-white focus:to-white focus:text-slate-800 text-white font-base bg-blue-500"
+            className="text-lg px-4 py-2 md:w-[30%] w-[50%] m-auto my-4 rounded-md view focus:ring-4 focus:from-white focus:to-white focus:text-slate-800 text-white font-base bg-blue-500"
             value="Send Message" // Provide a clear submit button label
           />
 

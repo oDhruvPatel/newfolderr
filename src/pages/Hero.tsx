@@ -49,7 +49,7 @@ const TextMovingOnScroll: React.FC = () => {
         <div className="w-ful"> 
         <h1
           ref={titleRef2}
-          className="w-full my-3 text-center text-5xl md:text-8xl  md:font-bold font-semibold  primary px-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"
+          className="w-full my-3 text-center text-5xl md:text-8xl  md:font-bold font-semibold  primary px-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 glow"
         >
           I am Dhruv Patel
         </h1>
