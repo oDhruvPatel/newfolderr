@@ -14,7 +14,7 @@ const Experience = () => {
         className={`md:w-[80vw] w-[100vw] m-auto  transition-all my-12`}
       >
         <div
-          className={`view1 md:border-r-4 md:border-l-0 gradient-border border-l-4  border-slate-800 z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
+          className={`view1 md:border-r-2 md:border-l-0 gradient-border border-l-2  border-slate-800 z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
         >
                   
                   <Education seq={1} classLR="md:text-left md:pl-1"  dotLR="md:-left-[5px] md:right-auto -left-[-3.5%]" class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>

@@ -9,11 +9,11 @@ const Skill = (props: {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
 
   return (
-    <div className={`${props.bg} flex flex-col my-4 md:my-4 md:m-2 md:w-[30%] w-[90%] m-auto text-black shadow-md rounded-xl p-2`}>
+    <div className={`${props.bg} flex flex-col my-4 md:my-4 md:m-0 md:w-[30%] w-[90%] m-auto text-black shadow-md rounded-xl p-2`}>
       <div className="m-auto md:text-2xl text-xl pt-2 md:pt-2 text-[#adb4c3]">{props.icon}</div>
       <h2 className="primary text-xl font-bold m-auto h-[20%] text-[#adb4c3] text-center my-2 capitalize">{props.title}</h2>
       <div className="w-full flex flex-row h-[80%]">
-        <ul className="flex flex-row justify-center py-4 w-full flex-wrap">
+        <ul className="flex flex-row justify-center w-full flex-wrap">
           {props.list.map((item, idx) => (
             <li
               key={idx}

@@ -16,7 +16,7 @@ Education
         className={`md:w-[80vw] w-[100vw] m-auto  transition-all my-12`}
       >
         <div
-          className={`view1  md:border-r-4 md:border-l-0 border-l-4 gradient-border z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
+          className={`view1  md:border-r-2 md:border-l-0 border-l-2 gradient-border z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
         >
        
                   <Education seq={1} classLR="md:text-right md:pr-1" dotLR="md:-right-[10px] md:left-auto -left-[-3.5%]" class="left" title="B.E Computer Sci. and Engg. - Spec. AI & ML" timeline="2021-2024" desc={BE}/>

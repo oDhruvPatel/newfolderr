@@ -18,7 +18,7 @@ const Education = (props: {
           <div
             className={`md:my-0 md:mx-0 mb-4 border border-white/5 bb bg-black rounded-xl p-4 md:w-[90%] w-[96%] ml-3 md:ml-0 shadow-md  primary view transition-all hover:scale-105`}
           >
-            <h1 className="title md:text-lg text-lg font-semibold text-indigo-500 ">
+            <h1 className="title md:text-lg text-lg font-semibold text-blue-500 ">
               {" "}
               {props.title}{" "}
             </h1>
