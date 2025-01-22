@@ -17,8 +17,8 @@ const Experience = () => {
           className={`view1 md:border-r-2 md:border-l-0 gradient-border border-l-2  border-slate-800 z-50 md:w-[50%] w-[90%] md:m-0 m-auto flex md:justify-center md:items-center flex-col `}
         >
                   
-                  <Education seq={1} classLR="md:text-left md:pl-1"  dotLR="md:-left-[5px] md:right-auto -left-[-3.5%]" class="right" title="Data Analyst" timeline="May 2024 - Present" desc={DA}/>
-                  <Education seq={2} classLR="md:text-right md:pr-1" dotLR="md:-right-[10px] md:left-auto -left-[-3.5%]" class="left" title="Backend Developer (Node.js)" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
+                  <Education seq={1} classLR="md:text-left md:pl-1"  dotLR="md:-left-[5px] md:right-auto -left-[-3.5%]" class="right" title="" timeline="May 2024 - Jun 2024" desc={DA}/>
+                  <Education seq={2} classLR="md:text-right md:pr-1" dotLR="md:-right-[10px] md:left-auto -left-[-3.5%]" class="left" title="Software developer" timeline="jan 2024 - Apr 2024" desc={Toshal}/>
                   
         </div>
         </div>     
